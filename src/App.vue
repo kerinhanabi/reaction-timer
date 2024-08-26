@@ -58,7 +58,7 @@ button {
   cursor: pointer;
   margin: 10px;
 }
-button[:disabled] {
+button[disabled] {
   opacity: 0.2;
   cursor: not-allowed;
 }
